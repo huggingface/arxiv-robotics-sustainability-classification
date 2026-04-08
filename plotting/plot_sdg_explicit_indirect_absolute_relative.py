@@ -331,7 +331,7 @@ def main() -> None:
     )
     parser.add_argument(
         "--dataset-dir",
-        default="/home/gospar/huggingface/arxiv_papers",
+        default=".",
         help="Dataset root to scan when input file is not provided.",
     )
     args = parser.parse_args()

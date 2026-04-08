@@ -5,6 +5,16 @@ Automated pipeline that downloads arXiv robotics papers, runs
 structured JSON dataset annotating each paper with its UN Sustainable
 Development Goal (SDG) relevance.
 
+The code takes the desired date range as input, fetches metadata for all papers in that range (on Arxiv's `cs.Ro`- robotics section), downloads the PDFs, and runs inference to classify each paper's sustainability motivation and SDG alignment. The final output is a JSON file with structured annotations for each paper, which can be used for analysis and visualization.
+
+
+This repository's code is used for generating the dataset and analysis in the blog post:
+[Robotics should think (and do) more about sustainability](https://huggingface.co/spaces/sustainable-robotics/sustainability-in-robotics#how-many-papers-are-motivated-by-sustainability-related-topics).
+
+The generated dataset of 50,000 papers spaning from 2015 to Q1 of 2026 is available on HuggingFace:
+https://huggingface.co/datasets/sustainable-robotics/robotics-arxiv-sustainability-classification
+
+
 ---
 
 ## Quick start
@@ -17,10 +27,11 @@ pip install -r requirements.txt
 export HF_TOKEN=hf_...
 
 # 3. Run the full pipeline for a date range
+# the example below processes papers published in April 2026, with outputs in ./run/2026-apr/
 python run_pipeline.py \
-    --start-date 2025-01-01 \
-    --end-date   2025-06-30 \
-    --work-dir   ./run/2025-h1
+    --start-date 2026-04-01 \ 
+    --end-date   2026-04-30 \
+    --work-dir   ./run/2026-apr
 ```
 
 All outputs land in `--work-dir`:
