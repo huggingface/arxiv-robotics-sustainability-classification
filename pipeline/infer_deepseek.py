@@ -107,50 +107,66 @@ def extract_text_from_pdf(pdf_path: str, max_chars: int) -> str:
 # ---------------------------------------------------------------------------
 
 def _build_prompt(sdg_text: str, ifr_text: str, title: str, paper_text: str):
-    system = f"""You are an expert in analyzing academic papers for their impact on the UN Sustainable Development Goals (SDGs) and related environmental or social impacts.
+    system = f"""
+       
+    My aim is to assess and quantify how often robotics research is explicitly motivated by sustainable development, to raise awareness about the prioritization of sustainability in the field. You are an expert in analyzing academic papers for their impact on the UN Sustainable Development Goals (SDGs) and related environmental or social impacts. Your task is to analyze the provided paper and identify which SDGs it most directly supports, based on its content and the IFR proposals.
 
-My aim is to assess and quantify how often robotics research is explicitly motivated by sustainable development, to raise awareness about the prioritization of sustainability in the field.
+    Use the full list of 17 SDGs and targets:
+    {sdg_text}
 
-Use the full list of 17 SDGs and targets:
-{sdg_text}
+    Also use the following text as a reference for the SDGs and targets. It shows the proposals of the International Federation of Robotics (IFR) on how robots can help achieve the SDGs:
+    {ifr_text}
 
-Also use the following IFR proposals as reference for how robots can help achieve the SDGs:
-{ifr_text}
+    Respond in the format:
 
-Respond using the format below. Be concise and factual — do not be overly optimistic or pessimistic.
-"""
 
-    user = f"""Title: {title}
+Point 0. provide the type of the paper (survey, experimental, theoretical, report or other - or a combination of these).
+If you are not sure, just say "other".
+Point 1. SDGs and targets the paper is **explicitly motivated by or aims to address** (i.e., the problem or impact the authors are directly targeting). 
+Point 2. provide a list of SDGs and targets SDGs and targets **relevant to the technologies or methods developed** in the paper, even if **not mentioned** or motivated by sustainability. This list should include SDGs the list in point 1.
+Point 3. check if the terms "sustainability", "ecological impact", "social impact" or their derivatives are mentioned in the text, and provide a yes/no answer for each. Also check if the authors mention the UN's 17 sustainable development goals explicitly.
+Point 4. **IFR Proposals:** Does the paper results/technology coincide with the International Federation of Robotics (IFR) proposals for supporting SDGs? Provide a list of the the SDGs the paper supports according to the IFR proposals, and a list of matching IFR use cases (quote or paraphrase from IFR proposals). If the paper does not match any IFR proposal, provide an empty list.
+Point 5. provide a reasoning for the choices made in points 0-4, with quotes from the paper if possible, make it concise and to the point.
+
+
+    """
+
+    user = f"""
+Title: {title}
 Full paper text:
 \"\"\"
 {paper_text}
 \"\"\"
 
+
+Do not be verbose, keep it concise.
+Do not be overly optimistic or pessimistic, just state the facts.
+If not enough information is available, say so and provide with empty lists or "unknown" where appropriate.
+
 Respond in the format:
 ---------------------------
 0. Paper type: [survey, experimental, theoretical, report, other]
-1. SDGs and targets the paper is **explicitly motivated by or aims to address** (i.e., the problem or impact the authors are directly targeting) only if they are motivated by sustainability, not the technology itself:
+1. SDGs and targets the paper is **explicitly motivated by or aims to address** (i.e., the problem or impact the authors are directly targeting) only if they are motivated by sustainability not the technology itself:
    - SDGs: [SDG X, SDG Y, ...]
-   - Targets: [[X.Y, X.Z, ...], ...]
+   - Targets: [[X.Y, X.Z, ...], [X.Y, ...], ...]
    - Quote(s) from the motivation/introduction.
 2. SDGs and targets **relevant to the technologies or methods developed** in the paper, even if not motivated by sustainability but mentioned in the text:
    - SDGs: [SDG X, SDG Y, ...]
-   - Targets: [[X.Y, X.Z, ...], ...]
+   - Targets: [[X.Y, X.Z, ...], [X.Y, ...], ...]
    - Brief justification for each.
 3. Authors mention in the text:
    - UN SDGs: yes/no
    - Sustainability impact: yes/no
    - Ecological impact: yes/no
    - Social impact: yes/no
-4. **IFR Proposals:** Does the paper coincide with IFR proposals for supporting SDGs?
-   - IFR-aligned SDGs/targets: [SDG X, SDG Y, ...]
-   - Matching IFR use cases (quote or paraphrase): [...]
-   - Brief justification.
-5. Reasoning: A concise summary of why these SDGs and IFR alignments were chosen, quoting the paper where possible.
----------------------------
-
-If not enough information is available, say so and provide empty lists or "unknown" where appropriate.
-"""
+4. **IFR Proposals:** Does the paper results/technology coincide with the International Federation of Robotics (IFR) proposals for supporting SDGs?  
+   - IFR-aligned SDGs/targets: [SDG X, SDG Y, ...]  
+   - Matching IFR use cases (quote or paraphrase from IFR proposals):  
+     - [E.g., “Robots used in the development & testing of drugs” or “Inspection robots enable leak detection in pipes”]  
+   - Brief justification/explanation.
+5. Reasoning: "A concise summary of why these SDGs and IFR alignments were chosen, quoting the paper where possible."
+------------------------
+""" 
     return system, user
 
 
