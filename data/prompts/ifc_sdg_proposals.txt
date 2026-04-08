@@ -1,0 +1,145 @@
+UN Sustainable Development Goals: Robots help to protect our terrestrial ecosystems
+Which of the 17 SDGs can be met with the support of robots?
+Robots emerge as potent and versatile tools applicable across diverse sectors, encompassing both industry and services. They hold significant potential to contribute to societal advancement in achieving the United Nations' sustainable development goals. Sustainability, in this context, extends beyond mere economic or environmental concerns; it represents a universal commitment to eradicating poverty, safeguarding the planet, and ensuring global peace and prosperity for all by the year 2030.
+
+SDG 2: End hunger, achieve food security and improved nutrition and promote sustainable agriculture
+"Agricultural robots & robots in food pocessing"
+- Robots help to limit the need for chemical control and fertilizers with a high degree of predictability and precision.
+- Small lightweight swarm robots reduce soil compaction and positively impact vegetation.
+- Automation in food production and processing can minimize food waste with a growing ability to handle more unequal products (different size and variations or organic grown vegetables).
+- Camera technology, artificial intelligence and collaborative robots are increasing the ability to deal with the huge variation in raw material.
+- Agricultural robots help monitor soil conditions, the health of plants and animals and adapt actions to very local conditions, even plant by plant
+- Robots  can  help  increased  the  yield  in  food production. - Use of a milking robot increases the amount per day that a cow produces
+- Vertical gardening & greenhouses increase the yield per m² used
+
+SDG 3: Ensure healthy lives and promote well-being for all at all ages
+"Industrial and service robots supporting good health and well-being"
+- Robots used in the development & testing of drugs, incl. screening large amount of vaccines
+- Robots used for automatic testing of medical samples (blood samples, covid tests)
+- Robots used for the safe packaging of drugs
+- Robots support a safe and healthy workplace industrial robots taking over dirty, dull and dangerous work preventing people from being deployed in potentially dangerous work environments cobots and service robots that support manufacturing and healthcare workers in heavy lifting
+- Service robots help to protect healthcare workers (e.g. flexible telepresence)
+- Surgical robots improving patient care (with high precision & repeatability)
+- Automation of non-patient care jobs (e.g. hospital logistics) freeing up healthcare workers for patient-care
+
+SDG 4: Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all
+"Robots supporting STEM skills and quality education"
+- To encourage young people to take up the profession “robot programmer”, many robot manufacturers cooperate with schools, universities and other educational institutions.
+- Educational platform robots are on the market to teach high school and university students in basic and advanced programming skills
+- Robots serve as tool to teach basic STEM skills (applied science)
+- Practical courses in robotics programming have been introduced to the curriculum at many schools and higher education institutes around the globe
+- The courses provide students with the skills they need to enter the modern industrial workplace and gain high quality employment
+- Inclusion: robots enable the integration of lower-skilled persons in technically demanding jobs
+
+SDG 5: Achieve gender equality and empower all women and girl
+"Robots as enabling technology to promote empowerment of women"
+- End all forms of discrimination against all women and girls everywhere
+- Enhance the use of enabling technology, in particular information and communications  technology, to promote the empowerment of women
+- Robots making jobs easier that require heavy physical tasks
+- e.g. cobots supporting heavy lifting
+- Service robotics – adapting the design to appeal to female staff
+- Robots designed to particularly serve to female occupations (e.g. healthcare, inspection, assembly)
+- Taking over dull tasks and thus enabling women to gain higher qualified and less physically challenging jobs
+
+SDG 6: Ensure availability and sustainable management of water and sanitation for all
+"Inspection and maintenance robots to support clean water and sanitation"
+- Improve water quality by reducing pollution, eliminating dumping and minimizing release of hazardous chemicals and materials, halving the proportion of untreated  wastewater and substantially increasing recycling and safe reuse globally
+- Inspection robots enable leak detection in pipes
+- preventing the emission of hazardous substances or spill of precious drinking water
+- Using robots for pipe inspection to replace only those in real need
+- Water preservation:
+- Robots used to clean drinking water tanks
+- Using robots to assist with wastewater treatment
+- improve the working environment for the employees
+- make wastewater treatment cheaper and more efficient
+- Mobile robots used to monitor water contamination.
+- Smart farming contributes to conserve freshwater by enabling location & nursing of plants
+- UV disinfection robots
+
+SDG 7: Ensure access to affordable, reliable, sustainable and modern energy for all
+"Robots enabling sustainable production of green energy"
+- Ensure universal access to affordable, reliable and modern energy
+- Increase substantially the share of renewable energy in the global energy mix
+- Production of solar cells - Increase automation in solar industry
+- Precise, highly efficient and cost-effective production of solar collector panels
+- Standardized manufacturing and assembly solutions for efficient battery pack and battery module production
+- Production and assembly lines for fuel cells or their components
+- Enabling renewable energy producers and distributers to scale up their facilities by automated inspection and maintenance
+- Underwater robot for the decommissioning of nuclear reactors
+- Heavy duty AMRs handling offshore wind turbines during production
+
+SDG 8: Promote sustained and inclusive economic growth, full and productive employment
+"Industrial robots enabling decent work and economic growth"
+- Diversification, technological upgrading and innovation - resource efficiency in consumption and production – inclusivity - safe  and  secure  working  environments
+- Robots take over dirty, dull and dangerous work from humans, contributing to workplace safety (e.g. paint shop robots).
+- Robots make companies more productive and efficient, increasing their competitiveness and thus saving or creating jobs.
+- Manufacturing with robots is more ressource- and energy-efficient, leading to high quality products with reduced rejects.
+- Enabling production closer to the end customer – decentralized production, more sustainable, creating jobs
+- Developing countries benefit from automation though gains in export quality of their products, making them more competitive.
+
+SDG 9: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation
+"Inclusive and sustainable industrialization with robots"
+- Promote inclusive and sustainable industrialization and significantly raise industry’s share of employment and GDP
+- Upgrade infrastructure and retrofit industries to make them sustainable
+- While humans control and monitor production, cobots perform unpleasant and non-ergonomic tasks.
+- companies can meet their health and safety requirements
+- employees can be used to perform tasks that call for human strengths, such as the ability to learn, sensory perception or creativity.
+- Used and rental industrial robots offer affordable access for SMEs to robotization, without the up-front cost of purchasing a new industrial robot
+- Re-using refurbished robots reduces the environmental footprint
+- Robots increasing the efficiency of production – sustainable production
+- Automation and digitalization of brownfield facilities
+
+SDG 11: Make cities and human settlements inclusive, safe, resilient and sustainable
+"Robots used in waste management and recycling"
+- Reduce the adverse per capita environmental impact of cities
+- Paying special attention to air quality and municipal and other waste management
+- Deploying modular robotic picking systems to material recovery facilities
+- Improve the efficiency of sorting at the facilities
+- Ensures meeting higher purity standards
+- Better resource utilization of materials, traceability and recycling of end-of-life devices
+- Robotic disassembly to increase the recycling share and to redeem valuable, scarce resources like rare metals
+- A combination of robots, machine vision and AI is continuously improving the efficiency and competitiveness of these systems
+
+SDG 12: Ensure sustainable consumption and production patterns
+"Modern manufacturing with robots support resource efficient production"
+- Achieve the sustainable management and efficient use of natural resources
+- substantially reduce waste generation through prevention, reduction, recycling and reuse
+- High precision and repeatability ensures stable processes with lower rejects and higher yields
+- Fully automated assembly also opens the door to automated disassembly (e.g. electronic waste, battery recycling)
+- Robots enable the repair of products, e.g. by the ability to handle very small components
+- Robots can help recycling resources, e.g. by sensing the type of plastic
+- Reduced energy consumption during production due to lower footprint (energy costs), energy saving technologies
+- Re-using refurbished robots reduces the environmental footprint, increasing repairability
+- 3D printing of structures with recycled materials (e.g. plastics)
+- Quality inspection during the production process leads to less rejects as faulty parts can be replaced at an earlier stage.
+- Robots can reduce waste during industrial production, agricultural production and elsewhere in the food chain
+
+SDG 13: Take urgent action to combat climate change and its impacts
+"Robots combatting climate change"
+- Improve education, awareness-raising and human and institutional capacity on climate change mitigation, adaptation, impact reduction and early warning
+- Production technology for affordable carbon-neutral mobility and competitively priced renewable energy
+- Production of wind turbines and batteries - must be assembled and disassembled in the long run for recycling.
+- Robots help to ramp up the generation of green electricity from solar cells and wind turbines
+- Maintenance and efficient operation of existing wind farms: drones for monitoring, supply of spare parts or cleaning and inspection of wind turbine blades.
+- Flexible automation reducing the space needed and thus the footprint of production – reducing the overall energy consumption
+- Avoiding high costs and efforts on transportation and securing all production steps close to the end customer
+- Pop-up factories allowing manufacturing onsite (e.g. close to a construction site) or temporarily closer to customer demand
+- Robots enable early leak detection
+- Remote commissioning, monitoring and services - reduction in commutes to industrial sites
+
+SDG 14: Conserve and sustainably use the oceans, seas and marine resources
+"Marine and underwater robots"
+- Sustainably  manage  and  protect  marine  and  coastal  ecosystems  to  avoid significant adverse impacts, including by strengthening their resilience, and take action for their restoration in order to achieve healthy and productive oceans
+- Robots surveilling and preserving underwater fauna and flora (environmental monitoring)
+- Autonomous underwater vehicles (AUV) collecting new data on the seafloor, measuring its key characteristics (e.g. salinity, temperature, speed and direction of currents)
+- Inspecting pipes on offshore oil rigs
+- Cleaning of aquacultures
+- Recycling ocean plastics
+
+SDG 15: Protect, restore and promote sustainable use of terrestrial ecosystems
+"Robots help to protect our terrestrial ecosystems"
+- Ensure the conservation, restoration and sustainable use of terrestrial and inland freshwater ecosystems
+- Mobile robots preventing soil erosion, which is endangering beaches, estuaries, and coastal cities.
+- Robots help to limit the need for chemical control and fertilizers with a high degree of predictability and precision, protecting the ecosystem and reducing the impact on soil dwellers.
+- Small lightweight swarm robots reduce soil compaction and positively impact vegetation, thus help to prevent desertification.
+- Robots supporting the transition from single-use plastic to compostable packaging made from plant-based agricultural material

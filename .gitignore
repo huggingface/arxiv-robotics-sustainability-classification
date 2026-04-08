@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Pipeline outputs (data generated at runtime — do not commit)
+run/
+*.tmp
+
+# Environment / secrets
+.env
